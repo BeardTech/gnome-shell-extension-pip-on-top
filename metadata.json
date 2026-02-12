@@ -1,8 +1,7 @@
 {
-  "description": "Makes \"Picture-in-Picture\" windows stay on top (even on Wayland session). Compatible with Firefox, but may work with few other browsers too.",
-  "extension-id": "pip-on-top",
+  "description": "Makes \"Picture-in-Picture\" windows stay on top (even on Wayland session). Compatible with Firefox, Chrome Based Browser and other few apps",
   "gettext-domain": "pip-on-top",
-  "name": "PiP on top",
+  "name": "PiP on top (Fork with Chrome-based browsers)",
   "settings-schema": "org.gnome.shell.extensions.pip-on-top",
   "shell-version": [
     "45",
@@ -11,7 +10,6 @@
     "48",
     "49"
   ],
-  "url": "https://github.com/Rafostar/gnome-shell-extension-pip-on-top",
-  "uuid": "pip-on-top@rafostar.github.com",
-  "version": 999
+  "url": "https://github.com/BeardTech/gnome-shell-extension-pip-on-top",
+  "uuid": "pip-on-top@beardtech.github.com"
 }

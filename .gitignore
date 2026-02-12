@@ -1,2 +1,4 @@
-locale/
-po/
+.idea/
+.DS_Store
+*.zip
+schemas/gschemas.compiled
