@@ -1,8 +1,9 @@
 {
-  "description": "Makes \"Picture-in-Picture\" windows stay on top (even on Wayland session). Compatible with Firefox, Chrome Based Browser and other few apps",
+  "description": "Fork of Rafostar's PiP On Top. Keeps Picture-in-Picture windows above others (including Wayland), with expanded multilingual title matching and Chromium-based browser support.",
   "gettext-domain": "pip-on-top",
-  "name": "PiP on top (Fork with Chrome-based browsers)",
-  "settings-schema": "org.gnome.shell.extensions.pip-on-top",
+  "name": "PiP On Top Plus",
+  "settings-schema": "org.gnome.shell.extensions.pip-on-top-plus",
+  "version": 1,
   "shell-version": [
     "45",
     "46",

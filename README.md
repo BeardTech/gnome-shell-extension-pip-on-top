@@ -1,11 +1,19 @@
-# gnome-shell-extension-pip-on-top (Fork with Chrome-based browsers)
+# gnome-shell-extension-pip-on-top-plus
 This project is a fork maintained by **Beardtech**, inspired by the original work from **Rafostar**:
 
 https://github.com/Rafostar/gnome-shell-extension-pip-on-top
 
-The main work in this fork is internationalization and maintainability improvements, replacing the previous `po/mo` translation workflow with a simpler approach, while also improving support for Chrome-based browsers.
+The main work in this fork is internationalization and maintainability improvements, replacing the previous `po/mo` translation workflow with a simpler approach, while also improving support for Chromium-based browsers.
 
-Makes "Picture-in-Picture" windows stay on top (even on Wayland session). Compatible with Firefox, Chrome-based browsers.
+Makes "Picture-in-Picture" windows stay on top (even on Wayland session). Compatible with Firefox and Chromium-based browsers.
+
+## Differences from upstream
+- Extended PiP title matcher list to improve multi-language support.
+- Added and maintained support for Chromium-based browser PiP windows.
+- Simplified translation/title maintenance through `pip-title-matchers.json` + updater script.
+
+## Why this is a separate fork
+This fork carries behavior and maintenance choices that are specific to this project and release cadence. If upstream wants to take part or all of these changes, they can still be proposed as merge requests independently.
 
 ## Installation from source code
 Run below in terminal one by one:

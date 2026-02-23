@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.pip-on-top" path="/org/gnome/shell/extensions/pip-on-top/">
+  <schema id="org.gnome.shell.extensions.pip-on-top-plus" path="/org/gnome/shell/extensions/pip-on-top-plus/">
     <key name="stick" type="b">
       <default>false</default>
     </key>
